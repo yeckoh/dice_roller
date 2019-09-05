@@ -1,11 +1,14 @@
 # dice_roller
+# its unoptimized and doesn't necessarily follow good programming conventions and practices.
 compound statement dice simulating
+
+written in C++ for windows machines
 
 supports 7 digit 'particles'
 
 up to 10 separate dice groups
 
-written in C++ for windows machines
+has optional flags, such as: crit, floor, verbose, etc.
 
 example of use:
 

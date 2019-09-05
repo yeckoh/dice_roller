@@ -1,4 +1,4 @@
-# dice_roller
+# dice_roller v2.6
 # its unoptimized and doesn't necessarily follow good programming conventions and practices.
 compound statement dice simulating
 

@@ -12,6 +12,9 @@ unlimited modifiers, + or - are valid (d6+1+2-3+5-7+999)
 
 has optional flags, such as: crit, floor, verbose, clear, etc.
 
+![Image of use](https://i.imgur.com/Z938wwi.png)
+
+
 example of use:
 
 :d20

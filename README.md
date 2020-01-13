@@ -1,18 +1,24 @@
-# dice_roller v2.6
-# its unoptimized and doesn't necessarily follow good programming conventions and practices.
+# dice_roller v3.0
 compound statement dice simulating
 
-written in C++ for windows machines
-
-supports 7 digit 'particles'
-
-up to 10 separate dice groups (d8+5d6)
+written in C++ for windows machines but can compile on linux after removing console color calls
 
 unlimited modifiers, + or - are valid (d6+1+2-3+5-7+999)
 
-has optional flags, such as: crit, floor, verbose, clear, etc.
+3.0 supports subtracting dice groups from eachother, modifiers will be totaled before subtracting
 
-![Image of use](https://i.imgur.com/Z938wwi.png)
+also now supports limited multiplication and division. Order of operations does not apply however
+
+
+advantage, disadvantage, & crits are now specified per dicegroup.
+
+eg:
+
+a20+7 will roll 2d20, take the higher and add 7.
+
+v20+7 will take the lower result.
+
+c8+4+5c6 will treat both d8 and 5d6 as crits
 
 
 example of use:

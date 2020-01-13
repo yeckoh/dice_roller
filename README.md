@@ -1,4 +1,4 @@
-# dice_roller
+# dice_roller v2.6
 # its unoptimized and doesn't necessarily follow good programming conventions and practices.
 compound statement dice simulating
 
@@ -6,9 +6,14 @@ written in C++ for windows machines
 
 supports 7 digit 'particles'
 
-up to 10 separate dice groups
+up to 10 separate dice groups (d8+5d6)
 
-has optional flags, such as: crit, floor, verbose, etc.
+unlimited modifiers, + or - are valid (d6+1+2-3+5-7+999)
+
+has optional flags, such as: crit, floor, verbose, clear, etc.
+
+![Image of use](https://i.imgur.com/Z938wwi.png)
+
 
 example of use:
 
@@ -16,6 +21,8 @@ example of use:
 
 --> 16
 
+:d20-2
+--> 14+-2 ---> 12
 
 :2d20+7
 
@@ -25,7 +32,7 @@ example of use:
 
 
 
-:d6+2+3+4+5+6+7+321+3d4+3
+:d6+2-3+4+5+6+7+321+3d4+3
 
 --> 338
 
